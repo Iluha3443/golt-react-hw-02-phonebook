@@ -19,7 +19,6 @@ class PhoneBook extends React.Component {
     
     handleSubmit = (evt) => {
         evt.preventDefault();
-
         const nameContact = evt.target.name.value;
         const numberTel = evt.target.number.value;
 
@@ -45,14 +44,11 @@ class PhoneBook extends React.Component {
         console.log(searchResults)
         if (searchResults.length > 0) {
           this.setState({filter:nameInput})
-        }
-        
-        
+        }   
     }
 
 
     render() {
-
         const { contacts, filter } = this.state;
         const filteredContacts = contacts.filter(
       (contact) => contact.name.toLowerCase().includes(filter) 
@@ -94,9 +90,6 @@ class PhoneBook extends React.Component {
                      )}
                  </ul>
                  </div>
-                 
-
-                
              </>
          )
     }
