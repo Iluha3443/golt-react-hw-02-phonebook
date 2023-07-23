@@ -31,28 +31,27 @@ class PhoneBook extends React.Component {
             return; 
         }
 
-
         this.setState(prevState => ({
-            contacts: [...prevState.contacts, { id: nanoid(), name: nameContact, number:numberTel }]
+            contacts: [...prevState.contacts, { id: nanoid(), name: nameContact, number: numberTel }]
         }))
     }
 
     searchByName = (e) => {
-        const { contacts,filter } = this.state;
+        const { contacts } = this.state;
         const nameInput = e.target.value.toLowerCase();
         const searchResults = contacts.filter((contact) => contact.name.toLowerCase().includes(nameInput));
-        console.log(searchResults)
+        console.log(searchResults);
         if (searchResults.length > 0) {
-          this.setState({filter:nameInput})
+          this.setState({ filter: nameInput })
         }   
     }
 
 
     render() {
-        const { contacts } = this.state;
+        const { contacts, filter } = this.state;
         const filteredContacts = contacts.filter(
-      (contact) => contact.name.toLowerCase().includes(filter) 
-    )
+          (contact) => contact.name.toLowerCase().includes(filter) 
+        )
          return (
              <>
                 
