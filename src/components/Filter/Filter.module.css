@@ -1,0 +1,18 @@
+.title {
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+
+.input {
+  border: 2px solid green;
+  border-radius: 10%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

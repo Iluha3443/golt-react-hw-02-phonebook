@@ -1,0 +1,20 @@
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact {
+  list-style: none;
+  font-size: 25px;
+  color: black;
+}
+
+.btn {
+  padding: 8px;
+  color: green;
+  background-color: goldenrod;
+  cursor: pointer;
+  margin-left: 20px;
+}
