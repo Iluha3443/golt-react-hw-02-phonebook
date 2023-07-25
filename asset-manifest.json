@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/golt-react-hw-02-phonebook/static/css/main.7acaea2f.css",
-    "main.js": "/golt-react-hw-02-phonebook/static/js/main.c79c0bda.js",
+    "main.css": "/golt-react-hw-02-phonebook/static/css/main.59daa8f6.css",
+    "main.js": "/golt-react-hw-02-phonebook/static/js/main.4038beb1.js",
     "index.html": "/golt-react-hw-02-phonebook/index.html",
-    "main.7acaea2f.css.map": "/golt-react-hw-02-phonebook/static/css/main.7acaea2f.css.map",
-    "main.c79c0bda.js.map": "/golt-react-hw-02-phonebook/static/js/main.c79c0bda.js.map"
+    "main.59daa8f6.css.map": "/golt-react-hw-02-phonebook/static/css/main.59daa8f6.css.map",
+    "main.4038beb1.js.map": "/golt-react-hw-02-phonebook/static/js/main.4038beb1.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.c79c0bda.js"
+    "static/css/main.59daa8f6.css",
+    "static/js/main.4038beb1.js"
   ]
 }
